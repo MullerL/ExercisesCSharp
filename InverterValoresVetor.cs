@@ -11,7 +11,7 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
             //inverter valores do vetor usando apenas uma variavel
-            int[] vetor = { 11, 2 };
+            int[] vetor = { 11, 2, 44, 33, 22 };
             int aux = 0;
 
             for (int i = 0; i < vetor.Length / 2; i++)
