@@ -1,0 +1,21 @@
+using System;
+
+namespace ConsoleApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Digite um valor");
+            int valor = int.Parse(Console.ReadLine());
+            int resultado = Fatorial(valor);
+            Console.WriteLine(resultado);
+            Console.ReadKey();
+        }        
+
+        public static int Fatorial(int numero)
+        {
+            return numero == 1 ? 1 : numero * Fatorial(numero - 1);
+        }
+    }
+}
