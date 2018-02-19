@@ -1,0 +1,30 @@
+using System;
+
+namespace ConsoleAppAlgar
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //identificar formato do triangulo
+            //equilátero: possui os três lados com medidas iguais
+            //isósceles: possui dois lados com medidas iguais.
+            //escaleno: possui os três lados com medidas diferentes
+            int x = 2, y = 1, z = 4;
+
+            if (x == y && x == z)
+            {
+                Console.WriteLine("equilatero");
+            }
+            else if (x != y && x != z)
+            {
+                Console.WriteLine("escaleno");
+            }
+            else
+            {
+                Console.WriteLine("isosceles");
+            }
+            Console.ReadKey();
+        }
+     }
+ }
