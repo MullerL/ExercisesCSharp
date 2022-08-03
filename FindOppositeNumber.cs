@@ -15,10 +15,10 @@ internal class Program
     */
     private static void Main(string[] args)
     {
-        Console.WriteLine(solution(new int[] { 3, 7, 7, -2, 5, -3, 1, -1 }));
+        Console.WriteLine(FindOppositeNumber(new int[] { 3, 7, 7, -2, 5, -3, 1, -1 }));
     }
 
-    public static int solution(int[] A)
+    public static int FindOppositeNumber(int[] A)
     {
         int num = 0;
         while (A.Max() > 0)
