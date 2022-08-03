@@ -31,9 +31,8 @@ internal class Program
             else
             {
                 A = A.Except(new int[] { num }).ToArray();
-                num = 0;
             }
-        }        
-        return num;
+        }
+        return 0;
     }
 }
